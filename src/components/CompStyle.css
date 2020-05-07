@@ -1,0 +1,103 @@
+.my-float {
+  margin-top: 5px;
+}
+.float {
+  position: fixed;
+  width: 50px;
+  height: 40px;
+  bottom: 90px;
+  right: 10px;
+  background-color: #36404b;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #292727;
+  z-index: 99;
+}
+
+#header.fixed-top.header2 {
+  background-color: #212529;
+  margin: 0;
+}
+
+#row-id {
+  padding-bottom: 30px;
+}
+#style-1 {
+  color: #2d7a8a;
+}
+
+#style-2 {
+  height: 374px;
+  background: url(./images/pages/about-1.jpg) 50% 50% / cover no-repeat;
+}
+
+#auto-style-1 {
+  color: #2d7a8a;
+}
+
+#auto-style-2 {
+  height: 374px;
+  background: url(./images/pages/about-1.jpg) 50% 50% / cover no-repeat;
+}
+
+#health-style-1 {
+  color: #2d7a8a;
+}
+
+#health-style-2 {
+  height: 374px;
+  background: url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;
+}
+
+#ecom-style-1 {
+  color: #2d7a8a;
+}
+
+#ecom-style-2 {
+  height: 374px;
+  background: url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;
+}
+
+/* 
+.feature-icon {
+  margin-right: 6%;
+}
+
+.feature-content p {
+  padding-left: 17%;
+}
+
+.feature-content h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+
+.title-desc {
+  font-size: 18px;
+  color: gray;
+}
+
+#feature-heading {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#bot-icon {
+  margin-right: 2%;
+}
+
+#comp-heading {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#cog-icon {
+  margin: 2%;
+}
+
+#first-heading {
+  margin-top: 2%;
+  margin-bottom: 2%;
+} */
