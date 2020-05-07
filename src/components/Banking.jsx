@@ -20,10 +20,29 @@ import portfolio5 from "./images/portfolio/portfolio5.jpg";
 import portfoliobg1 from "./images/portfolio/portfolio-bg1.jpg";
 import portfoliobg2 from "./images/portfolio/portfolio-bg2.jpg";
 import portfoliobg3 from "./images/portfolio/portfolio-bg3.jpg";
-
+import banner1 from "./images/banner/banner1.jpg";
 const Banking = () => {
   return (
     <div className="Banking-wrapper">
+      <div id="banner-area">
+        <img src={banner1} alt="" ></img>
+        <div class="parallax-overlay"></div>
+        <div class="banner-title-content">
+          <div class="text-center">
+            <h2>Banking Solutions</h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item">
+                  <a href="index.php">Home</a>
+                </li>
+                <li class="breadcrumb-item text-white" aria-current="page">
+                  Banking & Finance
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
       <section id="main-container">
         <div className="container">
           <div className="row about-wrapper-top">
@@ -40,10 +59,7 @@ const Banking = () => {
                 </a>
               </p>
             </div>
-            <div
-              className="col-md-6 ts-padding about-img"
-              id="style-2"
-            ></div>
+            <div className="col-md-6 ts-padding about-img" id="style-2"></div>
           </div>
         </div>
         <div className="gap-60"></div>
@@ -73,11 +89,12 @@ const Banking = () => {
                   <i className="fa fa-check"></i> Lead generation{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Product Selection and Marketing
+                  <i className="fa fa-check"></i> Product Selection and
+                  Marketing
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Promotional messages in a sales
-                  push{" "}
+                  <i className="fa fa-check"></i> Promotional messages in a
+                  sales push{" "}
                 </li>
                 <li>
                   <i className="fa fa-check"></i> Claim & Premium Processing
@@ -213,7 +230,9 @@ const Banking = () => {
                   aria-selected="true"
                 >
                   <i className="fa fa-info-circle mr-4 h3 mb-0"></i>
-                  <span className="h4 mb-0 font-weight-bold">Retail Banking</span>
+                  <span className="h4 mb-0 font-weight-bold">
+                    Retail Banking
+                  </span>
                 </a>
                 <a
                   className="animated fadeIn nav-link mb-1 d-flex align-items-center"
@@ -332,8 +351,8 @@ const Banking = () => {
                       <i className="fa fa-check"></i> Add new user account
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Realtime information based on
-                      markets
+                      <i className="fa fa-check"></i> Realtime information based
+                      on markets
                     </li>
                   </ul>
                 </div>
@@ -409,10 +428,13 @@ const Banking = () => {
             <div className="col-sm-3 web-design isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
-                  <img src={portfolio1}alt=""></img>
+                  <img src={portfolio1} alt=""></img>
                   <figcaption>
                     <h3>Healthcare</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -433,7 +455,10 @@ const Banking = () => {
                   <img src={portfolio2} alt=""></img>
                   <figcaption>
                     <h3>Salon Scheduler</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -454,7 +479,10 @@ const Banking = () => {
                   <img src={portfolio3} alt=""></img>
                   <figcaption>
                     <h3>Weight Loss</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -475,7 +503,10 @@ const Banking = () => {
                   <img src={portfolio4} alt=""></img>
                   <figcaption>
                     <h3>Plastic Surgery</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -496,7 +527,10 @@ const Banking = () => {
                   <img src={portfolio5} alt=""></img>
                   <figcaption>
                     <h3>Tele Health</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a

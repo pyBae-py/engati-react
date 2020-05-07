@@ -14,29 +14,27 @@ import "./CompStyle.css";
 
 import portfolio1 from "./images/portfolio/portfolio1.jpg";
 import portfolio2 from "./images/portfolio/portfolio2.jpg";
-import portfolio3 from "./images/portfolio/portfolio3.jpg";
-import portfolio4 from "./images/portfolio/portfolio4.jpg";
-import portfolio5 from "./images/portfolio/portfolio5.jpg";
 import portfoliobg1 from "./images/portfolio/portfolio-bg1.jpg";
 import portfoliobg2 from "./images/portfolio/portfolio-bg2.jpg";
-import portfoliobg3 from "./images/portfolio/portfolio-bg3.jpg";
 import banner1 from "./images/banner/banner1.jpg";
-const Healthcare = () => {
+
+const Telecom = () => {
   return (
-    <div className="Healthcare-wrapper">
+    <div className="Telecom-wrapper">
       <div id="banner-area">
         <img src={banner1} alt=""></img>
-        <div class="parallax-overlay"></div>
-        <div class="banner-title-content">
-          <div class="text-center">
-            <h2>Healthcare Solutions</h2>
+        <div className="parallax-overlay"></div>
+
+        <div className="banner-title-content">
+          <div className="text-center">
+            <h2>Telecom Solutions</h2>
             <nav aria-label="breadcrumb">
-              <ol class="breadcrumb justify-content-center">
-                <li class="breadcrumb-item">
+              <ol className="breadcrumb justify-content-center">
+                <li className="breadcrumb-item">
                   <a href="index.php">Home</a>
                 </li>
-                <li class="breadcrumb-item text-white" aria-current="page">
-                  Healthcare
+                <li className="breadcrumb-item text-white" aria-current="page">
+                  Telecom
                 </li>
               </ol>
             </nav>
@@ -47,24 +45,26 @@ const Healthcare = () => {
         <div className="container">
           <div className="row about-wrapper-top">
             <div className="col-md-6 ts-padding ">
-              <h3>Chatbots for Healthcare</h3>
-              <p>"Learn how to build chatbots for BFSI use cases"</p>
+              <h3>Chatbots for Telecom </h3>
+              <p>"Learn how to build chatbots for Telecom use cases"</p>
               <p>
                 <a
                   href="#"
                   className="btn btn-primary solid square"
-                  id="health-style-1"
+                  id="telecom-style-1"
                 >
                   Get Started Free<i className="fa fa-long-arrow-right"></i>
                 </a>
               </p>
             </div>
+
             <div
               className="col-md-6 ts-padding about-img"
-              id="health-style-2"
+              id="telecom-style-2"
             ></div>
           </div>
         </div>
+
         <div className="gap-60"></div>
 
         <div className="container">
@@ -75,40 +75,35 @@ const Healthcare = () => {
             >
               <h3 className="pt-5">The Big Idea</h3>
               <p>
-                Healthcare is seeing big cost savings with the adoption of
-                chatbots. Annual cost savings are estimated to reach $3.6
-                billion globally by 2022, up from an estimated $2.8 million in
-                2017.{" "}
+                Managing your customer base with a large number of customer
+                support agents? With new and improved technologies customer
+                expectations are high.{" "}
               </p>
               <p>
-                New-age smart healthcare chatbots can record symptoms, diagnose
-                ailments and even suggest medication. They can provide
-                information on the side effects of medicines and terms of use.
-                This new 'Conversational healthcare' engages patients with a
-                more personalized care. The future of healthcare includes:{" "}
+                Smart Chatbots or assistants provide a 24x7x365 ability for
+                automating support. IVR integration can further improve the
+                support experience. The conversation experience today also
+                accounts for automating the most common tasks. These could
+                include plan guidance or switches, payments, ticket tracking &
+                more. Finally, chatbots help you engage with your customers with
+                new plan launches & promotions. Key capabilities that you can
+                rollout include:{" "}
               </p>
               <ul className="check-list">
                 <li>
-                  <i className="fa fa-check"></i> Medicine Reminders & Daily
-                  Health tips
+                  <i className="fa fa-check"></i> Plan Guidance & Up-sells{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Lifestyle & Nutrition Guidance
+                  <i className="fa fa-check"></i> Customer Support{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Doctor Searches{" "}
+                  <i className="fa fa-check"></i> Payments Reminders & handling{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Symptom Checker
+                  <i className="fa fa-check"></i> IVR Automation{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Clinic & Doctor Appointments{" "}
-                </li>
-                <li>
-                  <i className="fa fa-check"></i> Insurance Guidance
-                </li>
-                <li>
-                  <i className="fa fa-check"></i> Mental Healthcare Counselling
+                  <i className="fa fa-check"></i> Promotional Campaigns
                 </li>
               </ul>
             </div>
@@ -143,6 +138,7 @@ const Healthcare = () => {
                 <h3>Natural Language Processing</h3>
               </div>
             </div>
+
             <div
               className="feature-box col-sm-4 wow fadeInDown"
               data-wow-delay=".5s"
@@ -151,7 +147,7 @@ const Healthcare = () => {
                 <i className="fa fa-codepen"></i>
               </span>
               <div className="feature-content">
-                <h3>Calendar</h3>
+                <h3>Voice Support </h3>
               </div>
             </div>
 
@@ -163,7 +159,7 @@ const Healthcare = () => {
                 <i className="fa fa-film"></i>
               </span>
               <div className="feature-content">
-                <h3>Email & SMS </h3>
+                <h3>Integrations</h3>
               </div>
             </div>
           </div>
@@ -191,7 +187,7 @@ const Healthcare = () => {
                 <i className="fa fa-desktop"></i>
               </span>
               <div className="feature-content">
-                <h3>Payments</h3>
+                <h3>Live Chat </h3>
               </div>
             </div>
 
@@ -203,7 +199,7 @@ const Healthcare = () => {
                 <i className="fa fa-pagelines"></i>
               </span>
               <div className="feature-content">
-                <h3>Live Chat </h3>
+                <h3>Broadcast Notifications</h3>
               </div>
             </div>
           </div>
@@ -241,9 +237,7 @@ const Healthcare = () => {
                   aria-selected="true"
                 >
                   <i className="fa fa-info-circle mr-4 h3 mb-0"></i>
-                  <span className="h4 mb-0 font-weight-bold">
-                    To Businesses
-                  </span>
+                  <span className="h4 mb-0 font-weight-bold">To employees</span>
                 </a>
                 <a
                   className="animated fadeIn nav-link mb-1 d-flex align-items-center"
@@ -253,10 +247,11 @@ const Healthcare = () => {
                   aria-selected="true"
                 >
                   <i className="fa fa-android mr-4 h3 mb-0"></i>
-                  <span className="h4 mb-0 font-weight-bold">To Customers</span>
+                  <span className="h4 mb-0 font-weight-bold">To customers</span>
                 </a>
               </div>
             </div>
+
             <div className="col-md-9 col-sm-7">
               <div className="tab-content" id="v-pills-tabContent">
                 <div
@@ -264,23 +259,23 @@ const Healthcare = () => {
                   id="tab_1"
                   role="tabpanel"
                 >
-                  <h3>Benefits of Businesses</h3>
+                  <h3>Benefits for employees</h3>
                   <ul className="check-list">
                     <li>
-                      <i className="fa fa-check"></i> High growth in User
-                      Engagement
+                      <i className="fa fa-check"></i> Manage Customers Requests
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Reduce Customer
-                      Acquisition cost
+                      <i className="fa fa-check"></i> Assign customer Call
+                      Requests
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Automate Appointments &
-                      Initial Screening
+                      <i className="fa fa-check"></i> Send Payment Reminders
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Consolidate data from
-                      disparate Systems{" "}
+                      <i className="fa fa-check"></i> Send Offer Communications
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Interaction Analytics
                     </li>
                   </ul>
                 </div>
@@ -289,24 +284,24 @@ const Healthcare = () => {
                   id="tab_2"
                   role="tabpanel"
                 >
-                  <h3>Benefits of Customers</h3>
+                  <h3>Benefits for customers</h3>
                   <ul className="check-list">
                     <li>
-                      <i className="fa fa-check"></i> Book Appointments Easily
+                      <i className="fa fa-check"></i> Get Basic Technical
+                      Queries Answered
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Fill out Prescription
-                      Information easily
+                      <i className="fa fa-check"></i> Get Plan Information &
+                      Deal Information
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Easy access to Information
+                      <i className="fa fa-check"></i> Account & Plan Management
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Easy admission and
-                      discharge requests
+                      <i className="fa fa-check"></i> Get Live Chat Support
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Symptom Checker
+                      <i className="fa fa-check"></i> Bill Payment Notifications
                     </li>
                   </ul>
                 </div>
@@ -316,7 +311,6 @@ const Healthcare = () => {
         </div>
       </section>
       <div className="gap-40"></div>
-
       <section id="portfolio" className="portfolio portfolio-box">
         <div className="container">
           <div className="row">
@@ -337,9 +331,9 @@ const Healthcare = () => {
             <div className="col-sm-3 web-design isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
-                  <img src={portfolio1} alt=""></img>
+                  <img src={portfolio1} alt=""></img>>
                   <figcaption>
-                    <h3>Healthcare</h3>
+                    <h3>Telecom Bot</h3>
                     <a
                       className="link icon-pentagon"
                       href="portfolio-item.html"
@@ -357,13 +351,12 @@ const Healthcare = () => {
                 </figure>
               </div>
             </div>
-
             <div className="col-sm-3 development isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
                   <img src={portfolio2} alt=""></img>
                   <figcaption>
-                    <h3>Salon Scheduler</h3>
+                    <h3>Tech Desk Bot</h3>
                     <a
                       className="link icon-pentagon"
                       href="portfolio-item.html"
@@ -381,78 +374,6 @@ const Healthcare = () => {
                 </figure>
               </div>
             </div>
-
-            <div className="col-sm-3 joomla isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio3} alt=""></img>
-                  <figcaption>
-                    <h3>Weight Loss</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg3}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-
-            <div className="col-sm-3 wordpress isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio4} alt=""></img>
-                  <figcaption>
-                    <h3>Plastic Surgery</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg1}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-
-            <div className="col-sm-3 joomla isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio5} alt=""></img>
-                  <figcaption>
-                    <h3>Tele Health</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg3}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -460,4 +381,4 @@ const Healthcare = () => {
   );
 };
 
-export default Healthcare;
+export default Telecom;

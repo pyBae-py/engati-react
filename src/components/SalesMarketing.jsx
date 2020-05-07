@@ -21,23 +21,24 @@ import portfoliobg1 from "./images/portfolio/portfolio-bg1.jpg";
 import portfoliobg2 from "./images/portfolio/portfolio-bg2.jpg";
 import portfoliobg3 from "./images/portfolio/portfolio-bg3.jpg";
 import banner1 from "./images/banner/banner1.jpg";
-const ECommerce = () => {
+
+const SalesMarketing = () => {
   return (
-    <div className="ECommerce-wrapper">
+    <div className="SalesMarketing-wrapper">
       <div id="banner-area">
-        <img src={banner1} alt="" />
+        <img src={banner1} alt=""></img>
         <div class="parallax-overlay"></div>
 
         <div class="banner-title-content">
           <div class="text-center">
-            <h2>E Commerce Solutions</h2>
+            <h2>Sales & Marketing</h2>
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb justify-content-center">
                 <li class="breadcrumb-item">
-                  <a href="index.php">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li class="breadcrumb-item text-white" aria-current="page">
-                  ECommerce
+                  Sales & Marketing
                 </li>
               </ol>
             </nav>
@@ -48,23 +49,26 @@ const ECommerce = () => {
         <div class="container">
           <div class="row about-wrapper-top">
             <div class="col-md-6 ts-padding ">
-              <h3>Chatbots for Ecommerce & Retail </h3>
-              <p>
-                "Learn how to build chatbots for Ecommerce & Retail use cases"
-              </p>
+              <h3>Chatbots for Automated Sales and Marketing</h3>
+              <p>"Learn how to build chatbots for BFSI use cases"</p>
               <p>
                 <a
                   href="#"
                   class="btn btn-primary solid square"
-                  id="ecom-style-1"
+                  id="travel-style-1"
                 >
                   Get Started Free<i class="fa fa-long-arrow-right"></i>
                 </a>
               </p>
             </div>
-            <div class="col-md-6 ts-padding about-img" id="ecom-style-2"></div>
+
+            <div
+              class="col-md-6 ts-padding about-img"
+              id="travel-style-2"
+            ></div>
           </div>
         </div>
+
         <div class="gap-60"></div>
 
         <div class="container">
@@ -75,31 +79,31 @@ const ECommerce = () => {
             >
               <h3 class="pt-5">The Big Idea</h3>
               <p>
-                By 2023, over 70% of all chatbots accessed will be retail-based.
-                And, annual ecommerce chatbot transactions will reach $112
-                billion. Digital assistants are helping brands and organizations
-                garner leads and increase conversions.{" "}
+                30% of top-performing companies today use AI-powered marketing
+                chatbots to deliver superior marketing experiences.
               </p>
               <p>
-                Smart chatbots help with shopping and post-sales support. Beyond
-                the customer engagement, they are helping in vendor management
-                as well. Reactive commerce is insufficient to succeed. Ecommerce
-                chatbots also help tap the market when the lead is hot and to
-                convert cold ones with effective communication. Key capabilities
-                include:{" "}
+                A lot of these experiences are being driven by 24x7
+                availability. Digital assistants are at the forefront of
+                enabling an always-on presence for businesses. Sales bots answer
+                product queries and help nurture leads to sales completion. They
+                also help with personalized marketing and social media reach.
+                There are a range of automation opportunities in sales &
+                marketing. Key capabilities include:
               </p>
               <ul class="check-list">
                 <li>
-                  <i class="fa fa-check"></i> Lead Generation & Nurturing
+                  <i class="fa fa-check"></i> Lead generation{" "}
                 </li>
                 <li>
-                  <i class="fa fa-check"></i> Product Search Guidance{" "}
+                  <i class="fa fa-check"></i> Lead Nurturing and Closure
                 </li>
                 <li>
-                  <i class="fa fa-check"></i> Order Tracking Support{" "}
+                  <i class="fa fa-check"></i> Promotional Campaigns across
+                  Social Media
                 </li>
                 <li>
-                  <i class="fa fa-check"></i> Conversational Commerce
+                  <i class="fa fa-check"></i> Customer Engagement and Analytics
                 </li>
               </ul>
             </div>
@@ -131,7 +135,7 @@ const ECommerce = () => {
                 <i class="fa fa-heart-o"></i>
               </span>
               <div class="feature-content">
-                <h3>Natural Language Processing</h3>
+                <h3>Conversation Flow Builder</h3>
               </div>
             </div>
 
@@ -143,7 +147,7 @@ const ECommerce = () => {
                 <i class="fa fa-codepen"></i>
               </span>
               <div class="feature-content">
-                <h3>Bot Commerce & Cart Management </h3>
+                <h3>Segmentation</h3>
               </div>
             </div>
 
@@ -155,7 +159,7 @@ const ECommerce = () => {
                 <i class="fa fa-film"></i>
               </span>
               <div class="feature-content">
-                <h3>Campaign Management </h3>
+                <h3>Campaigns</h3>
               </div>
             </div>
           </div>
@@ -171,7 +175,7 @@ const ECommerce = () => {
                 <i class="fa fa-newspaper-o"></i>
               </span>
               <div class="feature-content">
-                <h3>Integration Hub </h3>
+                <h3>CRM Integrations </h3>
               </div>
             </div>
 
@@ -183,7 +187,7 @@ const ECommerce = () => {
                 <i class="fa fa-desktop"></i>
               </span>
               <div class="feature-content">
-                <h3>Payments</h3>
+                <h3>Omni Channe</h3>
               </div>
             </div>
 
@@ -195,21 +199,7 @@ const ECommerce = () => {
                 <i class="fa fa-pagelines"></i>
               </span>
               <div class="feature-content">
-                <h3>Live Chat </h3>
-              </div>
-            </div>
-          </div>
-          <div class="gap-40"></div>
-          <div class="row">
-            <div
-              class="feature-box col-sm-4 wow fadeInDown"
-              data-wow-delay=".5s"
-            >
-              <span class="feature-icon float-left">
-                <i class="fa fa-pagelines"></i>
-              </span>
-              <div class="feature-content">
-                <h3>Omni Channel </h3>
+                <h3>Natural Language Processing </h3>
               </div>
             </div>
           </div>
@@ -247,9 +237,7 @@ const ECommerce = () => {
                   aria-selected="true"
                 >
                   <i class="fa fa-info-circle mr-4 h3 mb-0"></i>
-                  <span class="h4 mb-0 font-weight-bold">
-                    Business to Consumer
-                  </span>
+                  <span class="h4 mb-0 font-weight-bold">Retail Banking</span>
                 </a>
                 <a
                   class="animated fadeIn nav-link mb-1 d-flex align-items-center"
@@ -260,8 +248,42 @@ const ECommerce = () => {
                 >
                   <i class="fa fa-android mr-4 h3 mb-0"></i>
                   <span class="h4 mb-0 font-weight-bold">
-                    Business to Employee
+                    Wealth Management
                   </span>
+                </a>
+                <a
+                  class="animated fadeIn nav-link mb-1 d-flex align-items-center"
+                  data-toggle="pill"
+                  href="#tab_3"
+                  role="tab"
+                  aria-selected="true"
+                >
+                  <i class="fa fa-android mr-4 h3 mb-0"></i>
+                  <span class="h4 mb-0 font-weight-bold">
+                    Payments & Transfers
+                  </span>
+                </a>
+                <a
+                  class="animated fadeIn nav-link mb-1 d-flex align-items-center"
+                  data-toggle="pill"
+                  href="#tab_4"
+                  role="tab"
+                  aria-selected="true"
+                >
+                  <i class="fa fa-pagelines mr-4 h3 mb-0"></i>
+                  <span class="h4 mb-0 font-weight-bold">
+                    Payments & Transfers
+                  </span>
+                </a>
+                <a
+                  class="animated fadeIn nav-link mb-1 d-flex align-items-center"
+                  data-toggle="pill"
+                  href="#tab_5"
+                  role="tab"
+                  aria-selected="true"
+                >
+                  <i class="fa fa-support mr-4 h3 mb-0"></i>
+                  <span class="h4 mb-0 font-weight-bold">Insurance</span>
                 </a>
               </div>
             </div>
@@ -272,27 +294,22 @@ const ECommerce = () => {
                   id="tab_1"
                   role="tabpanel"
                 >
-                  <h3>Benefits of Business to Consumer</h3>
+                  <h3>Benefits of Retail Banking</h3>
                   <ul class="check-list">
                     <li>
-                      <i class="fa fa-check"></i> Customer Onboarding
+                      <i class="fa fa-check"></i> Account Registration
                     </li>
                     <li>
-                      <i class="fa fa-check"></i> Product Search
+                      <i class="fa fa-check"></i> Report Loss of cards
                     </li>
                     <li>
-                      <i class="fa fa-check"></i> Order Tracking & Status
-                      Inquiries
+                      <i class="fa fa-check"></i> Reset Passwords
                     </li>
                     <li>
-                      <i class="fa fa-check"></i> Help and Support{" "}
-                    </li>
-
-                    <li>
-                      <i class="fa fa-check"></i> Special Promotion Campaigns{" "}
+                      <i class="fa fa-check"></i> Apply for new Services
                     </li>
                     <li>
-                      <i class="fa fa-check"></i> Live Chat Assistance{" "}
+                      <i class="fa fa-check"></i> Close existing Services
                     </li>
                   </ul>
                 </div>
@@ -301,23 +318,91 @@ const ECommerce = () => {
                   id="tab_2"
                   role="tabpanel"
                 >
-                  <h3>Benefits of Business to Employee</h3>
+                  <h3>Benefits of Wealth Management</h3>
                   <ul class="check-list">
                     <li>
-                      <i class="fa fa-check"></i> Easy Tracking of Tasks List
+                      <i class="fa fa-check"></i> Mutual Fund and Equity
+                      Transactions
                     </li>
                     <li>
-                      <i class="fa fa-check"></i> Automated notification for new
-                      Customers
+                      <i class="fa fa-check"></i> Monitor Portfolio
                     </li>
                     <li>
-                      <i class="fa fa-check"></i> Lead Management
+                      <i class="fa fa-check"></i> Modify Portfolio
                     </li>
                     <li>
-                      <i class="fa fa-check"></i> Account Renewals
+                      <i class="fa fa-check"></i> Query for Risk Assessment
                     </li>
                     <li>
-                      <i class="fa fa-check"></i> Automated Assignment of Leads
+                      <i class="fa fa-check"></i> Search for Market Trends
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  class="tab-pane pl-sm-5 fade animated fadeInLeft"
+                  id="tab_3"
+                  role="tabpanel"
+                >
+                  <h3>Benefits of Payments & Transfers</h3>
+                  <ul class="check-list">
+                    <li>
+                      <i class="fa fa-check"></i> Transfer money
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Add/modify payee
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Add new user account
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Realtime information based on
+                      markets
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane pl-sm-5 fade animated fadeInLeft"
+                  id="tab_4"
+                  role="tabpanel"
+                >
+                  <h3>Marketing Benefits</h3>
+                  <ul class="check-list">
+                    <li>
+                      <i class="fa fa-check"></i> Product Notifications
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Communicate Deals & Offers{" "}
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Lead Generation
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Lead Qualification
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane pl-sm-5 fade animated fadeInLeft"
+                  id="tab_5"
+                  role="tabpanel"
+                >
+                  <h3>Insurance Benefits</h3>
+                  <ul class="check-list">
+                    <li>
+                      <i class="fa fa-check"></i> Generate Quotes
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Lead Generation
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Submit Claims
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Claim Tracking
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i> Buy Insurance
                     </li>
                   </ul>
                 </div>
@@ -350,7 +435,7 @@ const ECommerce = () => {
                 <figure class="m-0 effect-oscar">
                   <img src={portfolio1} alt=""></img>
                   <figcaption>
-                    <h3>Product Browser</h3>
+                    <h3>Healthcare</h3>
                     <a class="link icon-pentagon" href="portfolio-item.html">
                       <i class="fa fa-link"></i>
                     </a>
@@ -365,12 +450,13 @@ const ECommerce = () => {
                 </figure>
               </div>
             </div>
+
             <div class="col-sm-3 development isotope-item">
               <div class="grid">
                 <figure class="m-0 effect-oscar">
                   <img src={portfolio2} alt=""></img>
                   <figcaption>
-                    <h3>Fashion Store Chatbot</h3>
+                    <h3>Salon Scheduler</h3>
                     <a class="link icon-pentagon" href="portfolio-item.html">
                       <i class="fa fa-link"></i>
                     </a>
@@ -391,7 +477,7 @@ const ECommerce = () => {
                 <figure class="m-0 effect-oscar">
                   <img src={portfolio3} alt=""></img>
                   <figcaption>
-                    <h3>Skin Care</h3>
+                    <h3>Weight Loss</h3>
                     <a class="link icon-pentagon" href="portfolio-item.html">
                       <i class="fa fa-link"></i>
                     </a>
@@ -406,19 +492,20 @@ const ECommerce = () => {
                 </figure>
               </div>
             </div>
+
             <div class="col-sm-3 wordpress isotope-item">
               <div class="grid">
                 <figure class="m-0 effect-oscar">
                   <img src={portfolio4} alt=""></img>
                   <figcaption>
-                    <h3>Food And Beverages</h3>
+                    <h3>Plastic Surgery</h3>
                     <a class="link icon-pentagon" href="portfolio-item.html">
                       <i class="fa fa-link"></i>
                     </a>
                     <a
                       class="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href={portfolio4}
+                      href={portfoliobg3}
                     >
                       <i class="fa fa-search"></i>
                     </a>
@@ -432,14 +519,14 @@ const ECommerce = () => {
                 <figure class="m-0 effect-oscar">
                   <img src={portfolio5} alt=""></img>
                   <figcaption>
-                    <h3>Pet Services Chatbot Template</h3>
+                    <h3>Tele Health</h3>
                     <a class="link icon-pentagon" href="portfolio-item.html">
                       <i class="fa fa-link"></i>
                     </a>
                     <a
                       class="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href={portfoliobg3}
+                      href={portfoliobg1}
                     >
                       <i class="fa fa-search"></i>
                     </a>
@@ -447,19 +534,19 @@ const ECommerce = () => {
                 </figure>
               </div>
             </div>
-            <div class="col-sm-3 wordpress isotope-item">
+            <div class="col-sm-3 joomla isotope-item">
               <div class="grid">
                 <figure class="m-0 effect-oscar">
-                  <img src={portfolio4} alt=""></img>
+                  <img src={portfolio5} alt=""></img>
                   <figcaption>
-                    <h3>Baby Clothing</h3>
+                    <h3>Tele Health</h3>
                     <a class="link icon-pentagon" href="portfolio-item.html">
                       <i class="fa fa-link"></i>
                     </a>
                     <a
                       class="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href={portfoliobg2}
+                      href={portfoliobg1}
                     >
                       <i class="fa fa-search"></i>
                     </a>
@@ -474,4 +561,4 @@ const ECommerce = () => {
   );
 };
 
-export default ECommerce;
+export default SalesMarketing;

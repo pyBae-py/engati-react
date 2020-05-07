@@ -14,29 +14,27 @@ import "./CompStyle.css";
 
 import portfolio1 from "./images/portfolio/portfolio1.jpg";
 import portfolio2 from "./images/portfolio/portfolio2.jpg";
-import portfolio3 from "./images/portfolio/portfolio3.jpg";
-import portfolio4 from "./images/portfolio/portfolio4.jpg";
-import portfolio5 from "./images/portfolio/portfolio5.jpg";
 import portfoliobg1 from "./images/portfolio/portfolio-bg1.jpg";
 import portfoliobg2 from "./images/portfolio/portfolio-bg2.jpg";
-import portfoliobg3 from "./images/portfolio/portfolio-bg3.jpg";
 import banner1 from "./images/banner/banner1.jpg";
-const Healthcare = () => {
+
+const ServiceManagement = () => {
   return (
-    <div className="Healthcare-wrapper">
+    <div className="ServiceManagement-wrapper">
       <div id="banner-area">
-        <img src={banner1} alt=""></img>
-        <div class="parallax-overlay"></div>
-        <div class="banner-title-content">
-          <div class="text-center">
-            <h2>Healthcare Solutions</h2>
+        <img src={banner1} alt="" />
+        <div className="parallax-overlay"></div>
+
+        <div className="banner-title-content">
+          <div className="text-center">
+            <h2>Service Management</h2>
             <nav aria-label="breadcrumb">
-              <ol class="breadcrumb justify-content-center">
-                <li class="breadcrumb-item">
-                  <a href="index.php">Home</a>
+              <ol className="breadcrumb justify-content-center">
+                <li className="breadcrumb-item">
+                  <a href="/">Home</a>
                 </li>
-                <li class="breadcrumb-item text-white" aria-current="page">
-                  Healthcare
+                <li className="breadcrumb-item text-white" aria-current="page">
+                  Service Management
                 </li>
               </ol>
             </nav>
@@ -47,24 +45,26 @@ const Healthcare = () => {
         <div className="container">
           <div className="row about-wrapper-top">
             <div className="col-md-6 ts-padding ">
-              <h3>Chatbots for Healthcare</h3>
+              <h3>Chatbots for Service Management (ITSM)</h3>
               <p>"Learn how to build chatbots for BFSI use cases"</p>
               <p>
                 <a
                   href="#"
                   className="btn btn-primary solid square"
-                  id="health-style-1"
+                  id="travel-style-1"
                 >
                   Get Started Free<i className="fa fa-long-arrow-right"></i>
                 </a>
               </p>
             </div>
+
             <div
               className="col-md-6 ts-padding about-img"
-              id="health-style-2"
+              id="travel-style-2"
             ></div>
           </div>
         </div>
+
         <div className="gap-60"></div>
 
         <div className="container">
@@ -75,40 +75,33 @@ const Healthcare = () => {
             >
               <h3 className="pt-5">The Big Idea</h3>
               <p>
-                Healthcare is seeing big cost savings with the adoption of
-                chatbots. Annual cost savings are estimated to reach $3.6
-                billion globally by 2022, up from an estimated $2.8 million in
-                2017.{" "}
+                Managing IT is an increasingly complex job. To keep the services
+                running, assets secure and users informed is key. New
+                technologies, though are making it easier and cost effective.{" "}
               </p>
               <p>
-                New-age smart healthcare chatbots can record symptoms, diagnose
-                ailments and even suggest medication. They can provide
-                information on the side effects of medicines and terms of use.
-                This new 'Conversational healthcare' engages patients with a
-                more personalized care. The future of healthcare includes:{" "}
+                Smart Chatbots are at the forefront of helping IT support
+                functions scale. New age employees including millennials and
+                Generation Z find them convenient. This helps push for self
+                service. Companies have even deployed them for helping the tech
+                team. Uses also include notifications for key changes and
+                especially outage alerts. With faster support all around, ITSM
+                chatbots further help with the increased productivity charter.
+                Key capabilities addressed via chatbots include:{" "}
               </p>
               <ul className="check-list">
                 <li>
-                  <i className="fa fa-check"></i> Medicine Reminders & Daily
-                  Health tips
+                  <i className="fa fa-check"></i> 24x7 Service & Support
+                  availability{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Lifestyle & Nutrition Guidance
+                  <i className="fa fa-check"></i> Outage Alerts
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Doctor Searches{" "}
+                  <i className="fa fa-check"></i> Automation of common tasks{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Symptom Checker
-                </li>
-                <li>
-                  <i className="fa fa-check"></i> Clinic & Doctor Appointments{" "}
-                </li>
-                <li>
-                  <i className="fa fa-check"></i> Insurance Guidance
-                </li>
-                <li>
-                  <i className="fa fa-check"></i> Mental Healthcare Counselling
+                  <i className="fa fa-check"></i> Knowledge Management
                 </li>
               </ul>
             </div>
@@ -143,6 +136,7 @@ const Healthcare = () => {
                 <h3>Natural Language Processing</h3>
               </div>
             </div>
+
             <div
               className="feature-box col-sm-4 wow fadeInDown"
               data-wow-delay=".5s"
@@ -151,7 +145,7 @@ const Healthcare = () => {
                 <i className="fa fa-codepen"></i>
               </span>
               <div className="feature-content">
-                <h3>Calendar</h3>
+                <h3>Integration Hub</h3>
               </div>
             </div>
 
@@ -163,7 +157,7 @@ const Healthcare = () => {
                 <i className="fa fa-film"></i>
               </span>
               <div className="feature-content">
-                <h3>Email & SMS </h3>
+                <h3>JSON APIs </h3>
               </div>
             </div>
           </div>
@@ -179,7 +173,7 @@ const Healthcare = () => {
                 <i className="fa fa-newspaper-o"></i>
               </span>
               <div className="feature-content">
-                <h3>Request User Data </h3>
+                <h3>Hybrid Deployment</h3>
               </div>
             </div>
 
@@ -191,7 +185,7 @@ const Healthcare = () => {
                 <i className="fa fa-desktop"></i>
               </span>
               <div className="feature-content">
-                <h3>Payments</h3>
+                <h3>Script Node</h3>
               </div>
             </div>
 
@@ -203,7 +197,7 @@ const Healthcare = () => {
                 <i className="fa fa-pagelines"></i>
               </span>
               <div className="feature-content">
-                <h3>Live Chat </h3>
+                <h3>File Uploads </h3>
               </div>
             </div>
           </div>
@@ -242,7 +236,7 @@ const Healthcare = () => {
                 >
                   <i className="fa fa-info-circle mr-4 h3 mb-0"></i>
                   <span className="h4 mb-0 font-weight-bold">
-                    To Businesses
+                    Retail Banking
                   </span>
                 </a>
                 <a
@@ -253,7 +247,43 @@ const Healthcare = () => {
                   aria-selected="true"
                 >
                   <i className="fa fa-android mr-4 h3 mb-0"></i>
-                  <span className="h4 mb-0 font-weight-bold">To Customers</span>
+                  <span className="h4 mb-0 font-weight-bold">
+                    Wealth Management
+                  </span>
+                </a>
+                <a
+                  className="animated fadeIn nav-link mb-1 d-flex align-items-center"
+                  data-toggle="pill"
+                  href="#tab_3"
+                  role="tab"
+                  aria-selected="true"
+                >
+                  <i className="fa fa-android mr-4 h3 mb-0"></i>
+                  <span className="h4 mb-0 font-weight-bold">
+                    Payments & Transfers
+                  </span>
+                </a>
+                <a
+                  className="animated fadeIn nav-link mb-1 d-flex align-items-center"
+                  data-toggle="pill"
+                  href="#tab_4"
+                  role="tab"
+                  aria-selected="true"
+                >
+                  <i className="fa fa-pagelines mr-4 h3 mb-0"></i>
+                  <span className="h4 mb-0 font-weight-bold">
+                    Payments & Transfers
+                  </span>
+                </a>
+                <a
+                  className="animated fadeIn nav-link mb-1 d-flex align-items-center"
+                  data-toggle="pill"
+                  href="#tab_5"
+                  role="tab"
+                  aria-selected="true"
+                >
+                  <i className="fa fa-support mr-4 h3 mb-0"></i>
+                  <span className="h4 mb-0 font-weight-bold">Insurance</span>
                 </a>
               </div>
             </div>
@@ -264,23 +294,22 @@ const Healthcare = () => {
                   id="tab_1"
                   role="tabpanel"
                 >
-                  <h3>Benefits of Businesses</h3>
+                  <h3>Benefits of Retail Banking</h3>
                   <ul className="check-list">
                     <li>
-                      <i className="fa fa-check"></i> High growth in User
-                      Engagement
+                      <i className="fa fa-check"></i> Account Registration
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Reduce Customer
-                      Acquisition cost
+                      <i className="fa fa-check"></i> Report Loss of cards
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Automate Appointments &
-                      Initial Screening
+                      <i className="fa fa-check"></i> Reset Passwords
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Consolidate data from
-                      disparate Systems{" "}
+                      <i className="fa fa-check"></i> Apply for new Services
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Close existing Services
                     </li>
                   </ul>
                 </div>
@@ -289,24 +318,91 @@ const Healthcare = () => {
                   id="tab_2"
                   role="tabpanel"
                 >
-                  <h3>Benefits of Customers</h3>
+                  <h3>Benefits of Wealth Management</h3>
                   <ul className="check-list">
                     <li>
-                      <i className="fa fa-check"></i> Book Appointments Easily
+                      <i className="fa fa-check"></i> Mutual Fund and Equity
+                      Transactions
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Fill out Prescription
-                      Information easily
+                      <i className="fa fa-check"></i> Monitor Portfolio
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Easy access to Information
+                      <i className="fa fa-check"></i> Modify Portfolio
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Easy admission and
-                      discharge requests
+                      <i className="fa fa-check"></i> Query for Risk Assessment
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Symptom Checker
+                      <i className="fa fa-check"></i> Search for Market Trends
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  className="tab-pane pl-sm-5 fade animated fadeInLeft"
+                  id="tab_3"
+                  role="tabpanel"
+                >
+                  <h3>Benefits of Payments & Transfers</h3>
+                  <ul className="check-list">
+                    <li>
+                      <i className="fa fa-check"></i> Transfer money
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Add/modify payee
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Add new user account
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Realtime information based
+                      on markets
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  className="tab-pane pl-sm-5 fade animated fadeInLeft"
+                  id="tab_4"
+                  role="tabpanel"
+                >
+                  <h3>Marketing Benefits</h3>
+                  <ul className="check-list">
+                    <li>
+                      <i className="fa fa-check"></i> Product Notifications
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Communicate Deals & Offers{" "}
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Lead Generation
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Lead Qualification
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  className="tab-pane pl-sm-5 fade animated fadeInLeft"
+                  id="tab_5"
+                  role="tabpanel"
+                >
+                  <h3>Insurance Benefits</h3>
+                  <ul className="check-list">
+                    <li>
+                      <i className="fa fa-check"></i> Generate Quotes
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Lead Generation
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Submit Claims
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Claim Tracking
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i> Buy Insurance
                     </li>
                   </ul>
                 </div>
@@ -381,78 +477,6 @@ const Healthcare = () => {
                 </figure>
               </div>
             </div>
-
-            <div className="col-sm-3 joomla isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio3} alt=""></img>
-                  <figcaption>
-                    <h3>Weight Loss</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg3}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-
-            <div className="col-sm-3 wordpress isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio4} alt=""></img>
-                  <figcaption>
-                    <h3>Plastic Surgery</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg1}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-
-            <div className="col-sm-3 joomla isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio5} alt=""></img>
-                  <figcaption>
-                    <h3>Tele Health</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg3}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -460,4 +484,4 @@ const Healthcare = () => {
   );
 };
 
-export default Healthcare;
+export default ServiceManagement;

@@ -14,29 +14,25 @@ import "./CompStyle.css";
 
 import portfolio1 from "./images/portfolio/portfolio1.jpg";
 import portfolio2 from "./images/portfolio/portfolio2.jpg";
-import portfolio3 from "./images/portfolio/portfolio3.jpg";
-import portfolio4 from "./images/portfolio/portfolio4.jpg";
-import portfolio5 from "./images/portfolio/portfolio5.jpg";
 import portfoliobg1 from "./images/portfolio/portfolio-bg1.jpg";
 import portfoliobg2 from "./images/portfolio/portfolio-bg2.jpg";
-import portfoliobg3 from "./images/portfolio/portfolio-bg3.jpg";
 import banner1 from "./images/banner/banner1.jpg";
-const Healthcare = () => {
+const NewsMedia = () => {
   return (
-    <div className="Healthcare-wrapper">
+    <div className="NewsMedia-wrapper">
       <div id="banner-area">
-        <img src={banner1} alt=""></img>
+        <img src={banner1} alt="" />
         <div class="parallax-overlay"></div>
         <div class="banner-title-content">
           <div class="text-center">
-            <h2>Healthcare Solutions</h2>
+            <h2>News & Media Solutions</h2>
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb justify-content-center">
                 <li class="breadcrumb-item">
                   <a href="index.php">Home</a>
                 </li>
                 <li class="breadcrumb-item text-white" aria-current="page">
-                  Healthcare
+                  News & media
                 </li>
               </ol>
             </nav>
@@ -47,13 +43,13 @@ const Healthcare = () => {
         <div className="container">
           <div className="row about-wrapper-top">
             <div className="col-md-6 ts-padding ">
-              <h3>Chatbots for Healthcare</h3>
-              <p>"Learn how to build chatbots for BFSI use cases"</p>
+              <h3>Chatbots for News & Media </h3>
+              <p>"Learn how to build chatbots for News & Media use cases"</p>
               <p>
                 <a
                   href="#"
                   className="btn btn-primary solid square"
-                  id="health-style-1"
+                  id="news-style-1"
                 >
                   Get Started Free<i className="fa fa-long-arrow-right"></i>
                 </a>
@@ -61,7 +57,7 @@ const Healthcare = () => {
             </div>
             <div
               className="col-md-6 ts-padding about-img"
-              id="health-style-2"
+              id="news-style-2"
             ></div>
           </div>
         </div>
@@ -75,40 +71,39 @@ const Healthcare = () => {
             >
               <h3 className="pt-5">The Big Idea</h3>
               <p>
-                Healthcare is seeing big cost savings with the adoption of
-                chatbots. Annual cost savings are estimated to reach $3.6
-                billion globally by 2022, up from an estimated $2.8 million in
-                2017.{" "}
+                In today's social world, there is an information overload.
+                Browsing through many apps & sources leads to app fatigue for
+                users. Artificial intelligence combined with conversational
+                experience can be a game changer. It can help users get to what
+                they are looking for including news articles & media updates.{" "}
               </p>
               <p>
-                New-age smart healthcare chatbots can record symptoms, diagnose
-                ailments and even suggest medication. They can provide
-                information on the side effects of medicines and terms of use.
-                This new 'Conversational healthcare' engages patients with a
-                more personalized care. The future of healthcare includes:{" "}
+                Millennials & Generation Z are increasingly comfortable with
+                conversational interfaces. Statistics show them spending more
+                than 9 hours each day on their smartphones. It then makes sense
+                to rollout your marketing & content delivery capabilities on
+                news chatbots. Key capabilities would include:{" "}
               </p>
               <ul className="check-list">
                 <li>
-                  <i className="fa fa-check"></i> Medicine Reminders & Daily
-                  Health tips
+                  <i className="fa fa-check"></i> Latest news updates releases{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Lifestyle & Nutrition Guidance
+                  <i className="fa fa-check"></i> Tours and events information{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Doctor Searches{" "}
+                  <i className="fa fa-check"></i> Subscriptions & notifications{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Symptom Checker
+                  <i className="fa fa-check"></i> Engage with your followers
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Clinic & Doctor Appointments{" "}
+                  <i className="fa fa-check"></i> Deliver right news on a simple
+                  command{" "}
                 </li>
                 <li>
-                  <i className="fa fa-check"></i> Insurance Guidance
-                </li>
-                <li>
-                  <i className="fa fa-check"></i> Mental Healthcare Counselling
+                  <i className="fa fa-check"></i> Easy user acquisition with no
+                  installation asks
                 </li>
               </ul>
             </div>
@@ -143,6 +138,7 @@ const Healthcare = () => {
                 <h3>Natural Language Processing</h3>
               </div>
             </div>
+
             <div
               className="feature-box col-sm-4 wow fadeInDown"
               data-wow-delay=".5s"
@@ -151,7 +147,7 @@ const Healthcare = () => {
                 <i className="fa fa-codepen"></i>
               </span>
               <div className="feature-content">
-                <h3>Calendar</h3>
+                <h3>Request User Data </h3>
               </div>
             </div>
 
@@ -163,7 +159,7 @@ const Healthcare = () => {
                 <i className="fa fa-film"></i>
               </span>
               <div className="feature-content">
-                <h3>Email & SMS </h3>
+                <h3>Broadcast </h3>
               </div>
             </div>
           </div>
@@ -179,7 +175,7 @@ const Healthcare = () => {
                 <i className="fa fa-newspaper-o"></i>
               </span>
               <div className="feature-content">
-                <h3>Request User Data </h3>
+                <h3>Multimedia </h3>
               </div>
             </div>
 
@@ -191,7 +187,7 @@ const Healthcare = () => {
                 <i className="fa fa-desktop"></i>
               </span>
               <div className="feature-content">
-                <h3>Payments</h3>
+                <h3>User Segmentation </h3>
               </div>
             </div>
 
@@ -203,7 +199,7 @@ const Healthcare = () => {
                 <i className="fa fa-pagelines"></i>
               </span>
               <div className="feature-content">
-                <h3>Live Chat </h3>
+                <h3>Deep Analytics </h3>
               </div>
             </div>
           </div>
@@ -241,9 +237,7 @@ const Healthcare = () => {
                   aria-selected="true"
                 >
                   <i className="fa fa-info-circle mr-4 h3 mb-0"></i>
-                  <span className="h4 mb-0 font-weight-bold">
-                    To Businesses
-                  </span>
+                  <span className="h4 mb-0 font-weight-bold">Engagement</span>
                 </a>
                 <a
                   className="animated fadeIn nav-link mb-1 d-flex align-items-center"
@@ -253,7 +247,7 @@ const Healthcare = () => {
                   aria-selected="true"
                 >
                   <i className="fa fa-android mr-4 h3 mb-0"></i>
-                  <span className="h4 mb-0 font-weight-bold">To Customers</span>
+                  <span className="h4 mb-0 font-weight-bold">Efficiency</span>
                 </a>
               </div>
             </div>
@@ -264,49 +258,44 @@ const Healthcare = () => {
                   id="tab_1"
                   role="tabpanel"
                 >
-                  <h3>Benefits of Businesses</h3>
+                  <h3>Benefits of Engagement</h3>
                   <ul className="check-list">
                     <li>
-                      <i className="fa fa-check"></i> High growth in User
-                      Engagement
+                      <i className="fa fa-check"></i> High Click-through Rates
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Reduce Customer
-                      Acquisition cost
+                      <i className="fa fa-check"></i> High Engagement
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Automate Appointments &
-                      Initial Screening
+                      <i className="fa fa-check"></i> Higher Consumer
+                      Satisfaction Scores
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Consolidate data from
-                      disparate Systems{" "}
+                      <i className="fa fa-check"></i> Targeted Marketing{" "}
                     </li>
                   </ul>
                 </div>
+
                 <div
                   className="tab-pane pl-sm-5 fade animated fadeInLeft"
                   id="tab_2"
                   role="tabpanel"
                 >
-                  <h3>Benefits of Customers</h3>
+                  <h3>Benefits of Efficiency</h3>
                   <ul className="check-list">
                     <li>
-                      <i className="fa fa-check"></i> Book Appointments Easily
+                      <i className="fa fa-check"></i> 365*24*7 Availability
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Fill out Prescription
-                      Information easily
+                      <i className="fa fa-check"></i> Higher Retention Rates
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Easy access to Information
+                      <i className="fa fa-check"></i> Cost Effective Customer
+                      Acquisition
                     </li>
                     <li>
-                      <i className="fa fa-check"></i> Easy admission and
-                      discharge requests
-                    </li>
-                    <li>
-                      <i className="fa fa-check"></i> Symptom Checker
+                      <i className="fa fa-check"></i> Broader Reach across
+                      Social Media
                     </li>
                   </ul>
                 </div>
@@ -339,7 +328,7 @@ const Healthcare = () => {
                 <figure className="m-0 effect-oscar">
                   <img src={portfolio1} alt=""></img>
                   <figcaption>
-                    <h3>Healthcare</h3>
+                    <h3>News And Media</h3>
                     <a
                       className="link icon-pentagon"
                       href="portfolio-item.html"
@@ -357,13 +346,12 @@ const Healthcare = () => {
                 </figure>
               </div>
             </div>
-
             <div className="col-sm-3 development isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
                   <img src={portfolio2} alt=""></img>
                   <figcaption>
-                    <h3>Salon Scheduler</h3>
+                    <h3>Scam Safeguard</h3>
                     <a
                       className="link icon-pentagon"
                       href="portfolio-item.html"
@@ -381,78 +369,6 @@ const Healthcare = () => {
                 </figure>
               </div>
             </div>
-
-            <div className="col-sm-3 joomla isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio3} alt=""></img>
-                  <figcaption>
-                    <h3>Weight Loss</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg3}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-
-            <div className="col-sm-3 wordpress isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio4} alt=""></img>
-                  <figcaption>
-                    <h3>Plastic Surgery</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg1}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-
-            <div className="col-sm-3 joomla isotope-item">
-              <div className="grid">
-                <figure className="m-0 effect-oscar">
-                  <img src={portfolio5} alt=""></img>
-                  <figcaption>
-                    <h3>Tele Health</h3>
-                    <a
-                      className="link icon-pentagon"
-                      href="portfolio-item.html"
-                    >
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      className="view icon-pentagon"
-                      data-rel="prettyPhoto"
-                      href={portfoliobg3}
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -460,4 +376,4 @@ const Healthcare = () => {
   );
 };
 
-export default Healthcare;
+export default NewsMedia;

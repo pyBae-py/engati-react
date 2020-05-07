@@ -59,6 +59,44 @@
   background: url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;
 }
 
+#cust-support-style-1 {
+  color: #2d7a8a;
+}
+
+#cust-support-style-2 {
+  height: 374px;
+  background: url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;
+}
+
+#edu-style-1 {
+  color: #2d7a8a;
+}
+
+#edu-style-2 {
+  height: 374px;
+  background: url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;
+}
+
+#travel-style-1 {
+  color: #2d7a8a;
+}
+
+#travel-style-2 {
+  height: 374px;
+  background: url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;
+}
+
+#telecom-style-1 {
+  color: #2d7a8a;
+}
+
+#telecom-style-2 {
+  height: 374px;
+  background: url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;
+}
+
+
+
 /* 
 .feature-icon {
   margin-right: 6%;
