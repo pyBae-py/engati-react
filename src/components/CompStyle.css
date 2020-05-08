@@ -16,7 +16,7 @@
 }
 
 #header.fixed-top.header2 {
-  background-color: #212529;
+  background-color:#172c5a;
   margin: 0;
 }
 
@@ -95,7 +95,12 @@
   background: url(images/pages/about-1.jpg) 50% 50% / cover no-repeat;
 }
 
-a:link {
+#test{
+  text-align: center;
+ 
+}
+
+/* a:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
@@ -117,7 +122,7 @@ a:active {
   color: blue;
   background-color: transparent;
   text-decoration: underline;
-}
+} */
 
 
 /* 

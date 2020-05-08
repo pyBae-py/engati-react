@@ -308,7 +308,7 @@ blockquote {
   background-attachment: fixed !important;
   padding: 110px 0;
   color: #fff;
-  position: relative;
+  z-index: 0;
 }
 
 .parallax h2,
@@ -322,16 +322,18 @@ blockquote {
 }
 
 .parallax-overlay {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: 1;
   background: url(../images/overaly.png);
 }
 
 .parallax h3 {
   margin-bottom: 30px;
+  z-index: 1;
 }
 
 .parallax1 {
@@ -345,6 +347,7 @@ blockquote {
 
 .parallax3 {
   background: url(../images/parallax/parallax3.jpg) no-repeat;
+  
 }
 
 
@@ -1671,6 +1674,8 @@ figure.effect-oscar:hover img {
   border: 1px solid #8E8E8E;
   padding: 3px;
   width: 80px;
+  z-index: 1;
+  position: relative;
   height: 80px;
   border-radius: 100%;
 }
@@ -1688,19 +1693,19 @@ figure.effect-oscar:hover img {
   font-weight: 400;
   margin-top: -10px;
 }
-
+/* 
 .testimonial-slide .owl-buttons {
   display: none;
-}
+} */
 
 .testimonial-slide .testimonial-text {
   font-size: 16px;
   line-height: 24px;
   max-width: 800px;
   padding-top: 30px;
-  display: inline-block;
+  display: inline;
   position: relative;
-  color: #fff;
+  color: black;
 }
 
 .testimonial-slide .testimonial-text:before {
@@ -1718,7 +1723,7 @@ figure.effect-oscar:hover img {
 .testimonial-slide.owl-theme .owl-controls .owl-page span {
   background: none;
   border: 1px solid #fff;
-  opacity: .7;
+ 
 }
 
 .testimonial-slide.owl-theme .owl-controls .owl-page.active span {
@@ -2315,7 +2320,7 @@ ul.arrow li:before {
   border-color: #e7e7e7 transparent;
   display: block;
   width: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .ts-testimonial-content img {

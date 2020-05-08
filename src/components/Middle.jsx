@@ -9,7 +9,7 @@ import {
   faRobot,
 } from "@fortawesome/free-solid-svg-icons";
 
-import jQuery from 'jquery'
+import jQuery from "jquery";
 import "./css/presets/preset3.css";
 import "./plugins/cd-hero/cd-hero.css";
 import "./plugins/flex-slider/flexslider.css";
@@ -682,10 +682,7 @@ const Middle = () => {
         <div className="parallax-overlay"></div>
         <div className="container">
           <div className="row">
-            <div
-              id="testimonial-carousel"
-              className="text-center testimonial-slide"
-            >
+            <div id="testimonial-carousel" className="text-center testimonial-slide">
               <div className="item">
                 <div className="testimonial-thumb">
                   <img src={testimonial1} alt="testimonial"></img>
