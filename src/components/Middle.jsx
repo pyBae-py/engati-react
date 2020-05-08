@@ -9,7 +9,6 @@ import {
   faRobot,
 } from "@fortawesome/free-solid-svg-icons";
 
-import jQuery from "jquery";
 import "./css/presets/preset3.css";
 import "./plugins/cd-hero/cd-hero.css";
 import "./plugins/flex-slider/flexslider.css";
@@ -53,7 +52,7 @@ import client8 from "./images/clients/client8.png";
 import testimonial1 from "./images/team/testimonial1.jpg";
 import testimonial2 from "./images/team/testimonial2.jpg";
 import testimonial3 from "./images/team/testimonial3.jpg";
-
+import TestimonialCarousel from "./TestimonialCarousel.jsx";
 const Middle = () => {
   return (
     <div className="Middle-wrapper">
@@ -631,7 +630,7 @@ const Middle = () => {
           <div className="row wow fadeInLeft">
             <div
               id="client-carousel"
-              className="col-sm-12  owl-theme text-center client-carousel"
+              className="col-sm-12 owl-carousel owl-theme text-center client-carousel"
             >
               <figure className="m-0 item client_logo">
                 <a>
@@ -677,7 +676,7 @@ const Middle = () => {
           </div>
         </div>
       </section>
-
+      {/* 
       <section className="testimonial parallax parallax3" id="test">
         <div className="parallax-overlay"></div>
         <div className="container">
@@ -738,6 +737,9 @@ const Middle = () => {
             </div>
           </div>
         </div>
+      </section> */}
+      <section className="" style={{paddingBottom:"2%"}}>
+        <TestimonialCarousel />
       </section>
     </div>
   );

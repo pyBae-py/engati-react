@@ -103,6 +103,26 @@
   display: flex;
   overflow: scroll;
 }
+
+.App-footer{
+  padding: 0;
+}
+
+.carousel-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-name span{
+  color: gray;
+  font-weight: lighter;
+  text-transform: none;
+  font-size: 80%;
+}
+
+ .test-carousel{
+  margin-bottom: 0%;
+} 
 /* a:link {
   color: black;
   background-color: transparent;
