@@ -34,7 +34,7 @@ const ECommerce = () => {
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb justify-content-center">
                 <li class="breadcrumb-item">
-                  <a href="index.php">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li class="breadcrumb-item text-white" aria-current="page">
                   ECommerce

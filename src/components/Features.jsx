@@ -1,10 +1,10 @@
 import React from "react";
-
+import banner1 from "./images/banner/banner1.jpg";
 const Features = () => {
   return (
     <div className="Features-wrapper">
       <div id="banner-area">
-        <img src="images/banner/banner1.jpg" alt="" />
+        <img src={banner1} alt="" />
         <div class="parallax-overlay"></div>
         <div class="banner-title-content">
           <div class="text-center">
@@ -12,7 +12,7 @@ const Features = () => {
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb justify-content-center">
                 <li class="breadcrumb-item">
-                  <a href="Index.php">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li class="breadcrumb-item text-white" aria-current="page">
                   Features

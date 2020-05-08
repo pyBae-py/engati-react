@@ -23,6 +23,7 @@ import SalesMarketing from "./components/SalesMarketing.jsx";
 import ServiceManagement from "./components/ServiceManagement.jsx";
 import TransactionEnquiry from "./components/TransactionEnquiry";
 import ConversationalCommerce from "./components/ConversationalCommerce";
+import Features from "./components/Features.jsx";
 function App() {
   return (
     <Router>
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog />
+          </Route>
+          <Route path="/features">
+            <Features />
           </Route>
           <Route path="/education">
             <Education />

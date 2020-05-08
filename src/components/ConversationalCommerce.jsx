@@ -55,7 +55,7 @@ const ConversationalCommerce = () => {
                 <a
                   href="#"
                   className="btn btn-primary solid square"
-                 id="travel-style-1"
+                  id="travel-style-1"
                 >
                   Get Started Free<i className="fa fa-long-arrow-right"></i>
                 </a>
@@ -64,7 +64,8 @@ const ConversationalCommerce = () => {
 
             <div
               className="col-md-6 ts-padding about-img"
-              id="travel-style-1"></div>
+              id="travel-style-1"
+            ></div>
           </div>
         </div>
 
@@ -346,16 +347,19 @@ const ConversationalCommerce = () => {
             <div className="col-sm-3 web-design isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
-                  <img src="images/portfolio/portfolio1.jpg" alt=""></img>
+                  <img src={portfolio1} alt=""></img>
                   <figcaption>
                     <h3>Healthcare</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
                       className="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href="images/portfolio/portfolio-bg1.jpg"
+                      href={portfoliobg1}
                     >
                       <i className="fa fa-search"></i>
                     </a>
@@ -366,16 +370,19 @@ const ConversationalCommerce = () => {
             <div className="col-sm-3 web-design isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
-                  <img src="images/portfolio/portfolio1.jpg" alt=""></img>
+                  <img src={portfolio1} alt=""></img>
                   <figcaption>
                     <h3>Healthcare</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
                       className="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href="images/portfolio/portfolio-bg1.jpg"
+                      href={portfoliobg1}
                     >
                       <i className="fa fa-search"></i>
                     </a>
@@ -387,16 +394,19 @@ const ConversationalCommerce = () => {
             <div className="col-sm-3 development isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
-                  <img src="images/portfolio/portfolio2.jpg" alt=""></img>
+                  <img src={portfolio2} alt=""></img>
                   <figcaption>
                     <h3>Salon Scheduler</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
                       className="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href="images/portfolio/portfolio-bg2.jpg"
+                      href={portfoliobg2}
                     >
                       <i className="fa fa-search"></i>
                     </a>
@@ -408,16 +418,19 @@ const ConversationalCommerce = () => {
             <div className="col-sm-3 joomla isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
-                  <img src="images/portfolio/portfolio3.jpg" alt=""></img>
+                  <img src={portfolio3} alt=""></img>
                   <figcaption>
                     <h3>Weight Loss</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
                       className="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href="images/portfolio/portfolio-bg3.jpg"
+                      href={portfoliobg3}
                     >
                       <i className="fa fa-search"></i>
                     </a>
@@ -429,16 +442,19 @@ const ConversationalCommerce = () => {
             <div className="col-sm-3 wordpress isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
-                  <img src="images/portfolio/portfolio4.jpg" alt=""></img>
+                  <img src={portfolio4} alt=""></img>
                   <figcaption>
                     <h3>Plastic Surgery</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
                       className="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href="images/portfolio/portfolio-bg4.jpg"
+                      href={portfoliobg3}
                     >
                       <i className="fa fa-search"></i>
                     </a>
@@ -450,16 +466,19 @@ const ConversationalCommerce = () => {
             <div className="col-sm-3 joomla isotope-item">
               <div className="grid">
                 <figure className="m-0 effect-oscar">
-                  <img src="images/portfolio/portfolio5.jpg" alt=""></img>
+                  <img src={portfolio5} alt=""></img>
                   <figcaption>
                     <h3>Tele Health</h3>
-                    <a className="link icon-pentagon" href="portfolio-item.html">
+                    <a
+                      className="link icon-pentagon"
+                      href="portfolio-item.html"
+                    >
                       <i className="fa fa-link"></i>
                     </a>
                     <a
                       className="view icon-pentagon"
                       data-rel="prettyPhoto"
-                      href="images/portfolio/portfolio-bg5.jpg"
+                      href={portfoliobg3}
                     >
                       <i className="fa fa-search"></i>
                     </a>

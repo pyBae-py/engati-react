@@ -6,16 +6,10 @@ import {
   faCogs,
   faShoppingCart,
   faLightbulb,
-  faSuitcase,
-  faHeart,
-  faFilm,
-  faDesktop,
-  faGripLines,
-  faPenNib,
-  faNewspaper,
   faRobot,
 } from "@fortawesome/free-solid-svg-icons";
 
+import jQuery from 'jquery'
 import "./css/presets/preset3.css";
 import "./plugins/cd-hero/cd-hero.css";
 import "./plugins/flex-slider/flexslider.css";
@@ -26,6 +20,9 @@ import "./plugins/animate.css";
 import "./plugins/fontawesome/font-awesome.min.css";
 import "./plugins/bootstrap/bootstrap.min.css";
 import "./css/style.css";
+import "./CompStyle.css";
+
+import "./plugins/cd-hero/cd-hero.js";
 
 import bg2 from "./images/slider/bg2.jpg";
 import bg3 from "./images/slider/bg3.jpg";
@@ -77,7 +74,6 @@ const Middle = () => {
                   Take a Tour
                 </a>
               </div>
-
               <div className="cd-half-width cd-img-container">
                 <img src={bg_thumb1} alt=""></img>
               </div>
@@ -638,7 +634,7 @@ const Middle = () => {
               className="col-sm-12 owl-carousel owl-theme text-center client-carousel"
             >
               <figure className="m-0 item client_logo">
-                <a href="#">
+                <a>
                   <img src={client1} alt="client"></img>
                 </a>
               </figure>
@@ -682,13 +678,13 @@ const Middle = () => {
         </div>
       </section>
 
-      <section className="testimonial parallax parallax3">
+      <section className="testimonial parallax parallax3" id="test">
         <div className="parallax-overlay"></div>
         <div className="container">
           <div className="row">
             <div
               id="testimonial-carousel"
-              className="owl-carousel owl-theme text-center testimonial-slide"
+              className="text-center testimonial-slide"
             >
               <div className="item">
                 <div className="testimonial-thumb">
@@ -707,7 +703,7 @@ const Middle = () => {
                   </h3>
                 </div>
               </div>
-              <h1>Hahah</h1>
+
               <div className="item">
                 <div className="testimonial-thumb">
                   <img src={testimonial2} alt="testimonial"></img>

@@ -31,7 +31,7 @@ const Telecom = () => {
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb justify-content-center">
                 <li className="breadcrumb-item">
-                  <a href="index.php">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li className="breadcrumb-item text-white" aria-current="page">
                   Telecom
