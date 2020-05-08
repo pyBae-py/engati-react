@@ -631,7 +631,7 @@ const Middle = () => {
           <div className="row wow fadeInLeft">
             <div
               id="client-carousel"
-              className="col-sm-12 owl-carousel owl-theme text-center client-carousel"
+              className="col-sm-12  owl-theme text-center client-carousel"
             >
               <figure className="m-0 item client_logo">
                 <a>

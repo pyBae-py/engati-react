@@ -1693,10 +1693,10 @@ figure.effect-oscar:hover img {
   font-weight: 400;
   margin-top: -10px;
 }
-/* 
+
 .testimonial-slide .owl-buttons {
-  display: none;
-} */
+  display: flex;
+}
 
 .testimonial-slide .testimonial-text {
   font-size: 16px;

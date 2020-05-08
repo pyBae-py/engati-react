@@ -99,7 +99,10 @@
   text-align: center;
  
 }
-
+#client-carousel{
+  display: flex;
+  overflow: scroll;
+}
 /* a:link {
   color: black;
   background-color: transparent;
