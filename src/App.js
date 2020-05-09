@@ -1,5 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  Widget,
+  addResponseMessage,
+  addLinkSnippet,
+  addUserMessage,
+} from "react-chat-widget";
+import "react-chat-widget/lib/styles.css";
 
 import "./App.css";
 
@@ -24,15 +31,32 @@ import ServiceManagement from "./components/ServiceManagement.jsx";
 import TransactionEnquiry from "./components/TransactionEnquiry";
 import ConversationalCommerce from "./components/ConversationalCommerce";
 import Features from "./components/Features.jsx";
-
+// import WebChat from "./components/WebChat.jsx";
+import logo from "./logo.svg";
 
 function App() {
+  useEffect(() => {
+    addResponseMessage("Welcome to this awesome chat!");
+  }, []);
+
+  const handleNewUserMessage = (newMessage) => {
+    console.log(`New message incoming! ${newMessage}`);
+    // Now send the message throught the backend API
+  };
+
   return (
     <Router>
       <div className="App">
         <header className="App-header">
           <Header />
         </header>
+
+        <Widget
+          handleNewUserMessage={handleNewUserMessage}
+          profileAvatar={logo}
+          title="My new awesome title"
+          subtitle="And my cool subtitle"
+        />
 
         <Switch>
           <Route exact path="/">
